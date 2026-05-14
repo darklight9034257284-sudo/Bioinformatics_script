@@ -78,5 +78,4 @@ for p in possibilities:
 
 best_path = max(results, key=lambda x: x[1])
 
-print("\nMost probable state sequence:")
-print(best_path[0])
+print(f"\nMost probable state sequence is :{best_path[0]}, with probability :{best_path[1]}")
