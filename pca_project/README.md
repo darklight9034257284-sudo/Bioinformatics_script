@@ -1,11 +1,16 @@
-<<<<<<< HEAD
-PCA on Gene Expression Data
-🧬 Overview
+# <<<<<<< HEAD
+# PCA on Gene Expression Data**
+
+# **Overview**
+
+
 In this project, we explore how Principal Component Analysis (PCA) can help us understand patterns in gene expression data, specifically for breast cancer patients.
 
 Instead of just looking at thousands of genes individually, PCA helps reduce the complexity and lets us visualize meaningful patterns in a simpler way.
 
-Objective
+ # ****Objective****
+
+
 The main goals of this project were:
 
 Extract expression levels of two important genes: XBP1 and GATA3
@@ -16,7 +21,7 @@ Apply PCA to reduce dimensions
 
 Project the data onto the first principal component (PC1)
 
-Dataset
+**Dataset**
 We used gene expression data from 105 patients, organized into:
 
 class.tsv → Labels (ER+ or ER-)
@@ -48,7 +53,7 @@ Projected samples onto PC1
 
 This shows how well PCA separates the classes
 
-Results
+# Results
 The scatter plot shows a clear pattern between the two gene expressions
 
 PCA projection highlights separation between ER+ and ER- samples
@@ -58,15 +63,6 @@ Even though data is high-dimensional, PCA captures important variation effective
 # PCA-project
 
 PCA on gene expression data.
-
-Overview
---------
-
-This repository contains code and data for running principal component analysis (PCA)
-on a small gene expression dataset. The goal is to demonstrate dimensionality reduction
-and basic visualizations (scatter plots, PCA projections).
-
-
 
 Usage
 -----
